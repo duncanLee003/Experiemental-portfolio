@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Duncan Lee</title>
+        <meta http-equiv="X-UA-Compatible" content ="IE=edge">
+        <meta name="viewport" content=" initial-scale= 1">
+
+        <link rel="stylesheet" href="swiper-bundle.min.css">
+        <link rel="stylesheet" href="style.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel="stylesheet">
+        
+    </head>
+
+    <body>
+        <nav>
+            <div class ="nav-bar">
+                <i class='bx bx-menu sidebarOpen'></i>
+
+                <div class ="menu">
+                    <div class="x-toggle">
+                       
+                        <i class='bx bx-x siderbarClose'></i>
+                    </div>
+                        
+                    <ul class="nav-links">
+                        <li><a href = "index.html" >Home</a></li>
+                        <li class = "projects_menu">
+                            <a href = "#" >Projects</a>
+                            
+                            <ul class = "projects_submenu">
+                                <li class = "dev_menu">
+                                    <a href = "#" >Developments</a>
+
+                                    <ul class = "dev_submenu">
+                                        <li><a href = "web_design.html">Web Design</a></li>
+                                        <li><a href = "games.html">Games</a></li>
+                                        <li><a href = "app_development.html">Apps</a></li>
+                                    </ul>
+                                    <li><a href = "art_design.html">Art & Design</a></li>
+                                    <li><a href = "animation.html">Animation</a></li>
+
+                                </li>
+                                
+                            </ul>
+                        </li>
+                        <li><a href = "aboutme.html" >About Me</a></li>
+                        <li><a href = "contact.html" >Contact</a></li>
+                    </ul> 
+
+                    
+                    
+                </div>
+
+                <div class="theme-mode">
+                    <button onclick="toggleTheme()"><i class='bx bx-moon'></i></button>
+                </div>
+                    
+
+            </div>
+            
+        </nav>
+
+    
+
+        <!-- spacing so content isn't hidden behind nav bar-->
+        <style>
+            body {padding-top: 100px;}
+        </style>
+
+       
+        <div class="index_container1">
+            
+            <section class = "index_container1_box">
+                <div class = "index_container1_box_left">
+                    <h1>Duncan Lee</h1>
+                    <hr>
+                    <h2>Web Designer & Developer</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                    <button> <a href = "aboutme.html">More about me</a> </button>
+                </div>
+                    
+                <div class = "index_container1_box_right">
+                    <img src = "img/placeholder_img.svg" alt = "placeholder_image">
+                    
+                </div>
+
+                
+            </section>
+
+
+        </div>
+
+        <div class ="index_container2">
+            <div class = "index_container2_top">
+                <div class = "index_container2_top_left">
+                    <h1>My best skill is: </h1> 
+                    <h1 id="demo"></h1>
+                    <hr>
+                    <h2 id="ageDemo"></h2>
+                </div>
+                <div class = "index_container2_top_right">
+                    <div class = "formName">
+                        <input id="userName" type = "text" placeholder="Enter your name">
+                        <button onclick ="displayName()"> Enter </button>
+                        <p id = "nameDemo"></p>
+                    </div>
+                    <div class = "contactTest">
+                        <input id="phoneNumber" type = "tel" placeholder="Enter your number">
+                        <button onclick ="displayNumber()"> Enter</button>
+                        <p id = numberDemo></p>
+                        <p id = dataTypeDemo></p>
+
+                    </div>
+                </div>
+            </div>
+            <div class = "index_container2_bottom">
+
+            </div>
+        </div>
+            
+            
+            
+
+        
+ 
+
+
+    </body>
+
+
+
+    <script src = "script.js"></script>
+
+
+
+</html>
