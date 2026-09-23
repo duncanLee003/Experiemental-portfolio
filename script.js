@@ -55,11 +55,6 @@ function displayName(nameInput) {
     document.getElementById("nameDemo").innerHTML = "Hello " + nameInput + "!";
 }
 
-function displayNumber(phoneInput) {
-    var phoneInput = document.getElementById("phoneNumber").value;
-    document.getElementById("numberDemo").innerHTML = typeof "phoneNumber";
-    
-}
 
 var testNum = Number("18") + 1
 document.getElementById("dataTypeDemo").innerHTML = testNum + typeof "testNum";
